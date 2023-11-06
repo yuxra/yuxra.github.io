@@ -1,0 +1,201 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma;
+    background-color: rgb(255, 233, 108);
+}
+
+.container {
+    background-position: center;
+    background-color: white;
+    width: 1124px;
+    margin: 80px auto 0 auto;
+    height: 50cm;
+    box-shadow: rgb(255, 189, 46) 0px 7px 29px 0px;
+    position: relative;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 0 5%;
+    height: 80px;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    
+}
+
+nav .title {
+    float: left;
+    width: 40%;
+    height: 100%;
+    padding-top: 22px;
+    font-size: 28px;
+}
+
+nav .link {
+    float: right;
+    width: 60%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+nav .link li {
+    list-style: none;
+}
+
+nav .link a {
+    display: block;
+    padding: 1em;
+    font-size: 18;
+    font-weight: 600;
+    color: white; 
+    text-decoration: none;
+}
+
+.img {
+    background-image: url(https://i.pinimg.com/564x/6b/b2/9d/6bb29d5762e2bf740ef60017a65e4adc.jpg);
+    width: 100%;
+    height: 300px;
+    background-position: 0 -163px;
+    background-size: cover;
+    border-bottom: 5px solid rgb(255, 221, 0);
+    border-top: 5px solid rgb(255, 213, 0);
+}
+
+
+.heading {
+    color: #794300;
+    font-size: 30px;
+}
+
+.container .main {
+    font-family: arial;
+    padding: 20px;
+    padding-top: 5px;
+    width: 63%;
+    box-sizing: border-box;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.container .main .waktu {
+    font-size: 12px;
+    margin-top: -20px;
+}
+
+
+.container .main .waktu a{
+    color: orange;
+    text-decoration: none;
+}
+
+.container .main img{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+.container .main .subs {
+    color: #ff8c00;
+}
+
+.container .main p{
+    color: #785326;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.container .main p a{
+    text-decoration: none;
+    color: #b07934;
+}
+
+
+.container .main .subs a{
+    color: #ffa12e;
+    text-decoration: none;
+}
+
+.container .main a{
+    color: #785326;
+}
+
+.sidebar {
+    float: right;
+    width: 35%;
+    margin-right: 8px;
+}
+
+.sidebar .jdl{
+    color: #ff8c00;
+    margin-bottom: 1px;
+}
+
+.sidebar #fto-profil {
+    margin-right: 10px;
+    width: 90px;
+    height: 103px;
+    float: left;
+}
+
+.sidebar p{
+    font-size: 14px;
+    text-align: justify;
+    color: #ab5e00;
+}
+
+
+.sidebar #side-gmbr{
+    box-sizing: border-box;
+    margin-bottom: 1px;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+}
+
+.sidebar #tgl{
+     font-size: 12px; 
+     margin-top: 1px; 
+     margin-bottom: 20px;
+     color: #ab5e00;
+}
+
+.sidebar #tgl a{
+    color: #ab5e00;
+    text-decoration: none;
+}
+
+.sidebar .text{
+    color: #ff8c00;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+
+.footer {
+    font-style: italic;
+    display: inline;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 0 5%;
+    text-align: center;
+    background-color: #ffa434;
+    color: #ffffff;
+}
+
+.footer a {
+    color: rgb(255, 227, 196);
+    text-decoration: none;
+}
